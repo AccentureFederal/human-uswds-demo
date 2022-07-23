@@ -10,6 +10,17 @@ main: foo, bar, qaz
     {% if site.google_analytics_ua or site.dap_agency %}
       {% include analytics.html %}
     {% endif %}
+
+    <!-- HUMAN Security Tag for BOT Detection -->
+    <!-- <script src="https://s.byendz.com/2/842765/clear.js?dt=8427651657914826418000&pd=acc&mo=0" async="true"></script> -->
+    <script src="https://s.byendz.com/2/842765/clear.js?
+    &dt=8427651657914826418000
+    &mo=0
+    &pd=acc
+    &ap=io.github.accenturefederal
+    &si=human-uswds-demo"
+    async="true"></script>
+
   </head>
   <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
 
